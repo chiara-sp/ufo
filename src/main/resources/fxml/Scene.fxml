@@ -4,7 +4,6 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -25,11 +24,10 @@
                         <Insets bottom="10.0" />
                      </HBox.margin>
                   </ComboBox>
-                  <Button fx:id="btnConta" mnemonicParsing="false" onAction="#handleConta" text="Conta" />
+                  <Button mnemonicParsing="false" onAction="#handleConta" text="Conta" />
                </children>
             </HBox>
-            <Label text="Numero di avvistamenti" />
-            <TextField fx:id="txtMessaggio" disable="true" />
+            <Label fx:id="txtMessaggio" text="Numero di avvistamenti" />
          </children>
          <BorderPane.margin>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
